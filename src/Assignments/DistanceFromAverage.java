@@ -7,10 +7,10 @@ public class DistanceFromAverage {
     public static void main(String[] args) {
 
         int numOfInts = 0;
-        int userEntry;
-        int total = 0;
-        int average;
-        int[] allValues = new int[numOfInts + 1];
+        double userEntry;
+        double total = 0;
+        double average;
+        double[] allValues = new double[numOfInts + 1];
 
         Scanner input = new Scanner(System.in);
 
@@ -19,16 +19,17 @@ public class DistanceFromAverage {
 
 
             System.out.println("Enter a number.");
-            userEntry = input.nextInt();
+            userEntry = input.nextDouble();
             if (userEntry >= 0 && userEntry <= 20){
-            numOfInts++;
-            userEntry = allValues[numOfInts - 1];
-            total = userEntry + userEntry;
+                allValues[numOfInts] = userEntry;
+                numOfInts++;
+            total = total + userEntry;
             }else if (userEntry < 0 || userEntry > 20 && userEntry != 99999){
                 System.out.println("That value was invalid.");
             }
 
         }while(userEntry != 99999);
+
         average = total / numOfInts;
 
         for (int i = 0; 0 < numOfInts; i++){
@@ -36,7 +37,9 @@ public class DistanceFromAverage {
                 System.out.println(allValues[i] + " is " + (allValues[i] - average) + " above the average." );
             }else if(allValues[i] < average){
                 System.out.println(allValues[i] + " is " + (average - allValues[i]) + " below the average." );
-        } else {
+        } else if(allValues[i] == 0){
+            }
+            else {
                 System.out.println(allValues[i] + " is the average." );
             }
         }
