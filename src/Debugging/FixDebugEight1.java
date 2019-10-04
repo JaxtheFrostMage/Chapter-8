@@ -26,7 +26,7 @@ public class FixDebugEight1
       {
          if(userCode == okayCodes[i])
          {
-            found = false;
+            found = true;
          }
       }
       if(found)

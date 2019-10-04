@@ -9,7 +9,7 @@ public class Quiz {
         String playerInput;
         int correct = 0;
         String[] userInput = new String[10];
-        String[] answers = {"A", "B", "A", "C", "B", "B", "C", "A", "B", "C"};
+        String[] answers = {"a", "b", "a", "c", "b", "b", "c", "a", "b", "c"};
 
         Scanner input = new Scanner(System.in);
 
@@ -17,10 +17,10 @@ public class Quiz {
             System.out.println("What is the answer for question " + (i + 1) + " ?");
             playerInput = input.next();
 
-            if (playerInput.equalsIgnoreCase("a") || playerInput.equalsIgnoreCase("b") ||
-                    playerInput.equalsIgnoreCase("c")){
+            if (playerInput.equalsIgnoreCase("A") || playerInput.equalsIgnoreCase("B") ||
+                    playerInput.equalsIgnoreCase("C")){
                 userInput[i] = playerInput;
-                if(userInput[i] == answers[i]){
+                if(userInput[i].equals(answers[i])){
                     System.out.println("Correct!");
                     correct++;
                 } else {
@@ -32,5 +32,7 @@ public class Quiz {
             }
 
         }
+
+        System.out.println(correct + " Correct. \n" + (10-correct) + " Incorrect" );
     }
 }

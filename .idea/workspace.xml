@@ -12,20 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DistanceFromAverage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DistanceFromAverage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Assignments/DistanceFromAverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state relative-caret-position="415">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quiz.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Quiz.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Game_Zone/Quiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="323">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -51,12 +51,13 @@
         <option value="$PROJECT_DIR$/src/Assignments/FindPrice.java" />
         <option value="$PROJECT_DIR$/src/Examples/TwelveInts.java" />
         <option value="$PROJECT_DIR$/src/Game_Zone/FiveDice.java" />
-        <option value="$PROJECT_DIR$/src/Debugging/FixDebugEight1.java" />
         <option value="$PROJECT_DIR$/src/Debugging/FixDebugEight3.java" />
         <option value="$PROJECT_DIR$/src/Debugging/FixDebugEight4.java" />
         <option value="$PROJECT_DIR$/src/Debugging/FixDebugEight2.java" />
-        <option value="$PROJECT_DIR$/src/Assignments/DistanceFromAverage.java" />
         <option value="$PROJECT_DIR$/src/Game_Zone/Quiz.java" />
+        <option value="$PROJECT_DIR$/src/Assignments/ArrayMethodDemo.java" />
+        <option value="$PROJECT_DIR$/src/Assignments/DistanceFromAverage.java" />
+        <option value="$PROJECT_DIR$/src/Debugging/FixDebugEight1.java" />
       </list>
     </option>
   </component>
@@ -70,8 +71,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,7 +108,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,7 +130,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Quiz">
+  <component name="RunManager" selected="Application.DistanceFromAverage">
+    <configuration name="ArrayMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignments.ArrayMethodDemo" />
+      <module name="Chapter-8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="DistanceFromAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignments.DistanceFromAverage" />
       <module name="Chapter-8" />
@@ -143,17 +155,6 @@
     </configuration>
     <configuration name="FixDebugEight1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Debugging.FixDebugEight1" />
-      <module name="Chapter-8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Debugging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FixDebugEight2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Debugging.FixDebugEight2" />
       <module name="Chapter-8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -228,18 +229,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DistanceFromAverage" />
-      <item itemvalue="Application.FixDebugEight1" />
-      <item itemvalue="Application.FixDebugEight2" />
       <item itemvalue="Application.FixDebugEight3" />
       <item itemvalue="Application.Quiz" />
+      <item itemvalue="Application.ArrayMethodDemo" />
+      <item itemvalue="Application.FixDebugEight1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Quiz" />
         <item itemvalue="Application.DistanceFromAverage" />
-        <item itemvalue="Application.FixDebugEight3" />
-        <item itemvalue="Application.FixDebugEight2" />
         <item itemvalue="Application.FixDebugEight1" />
+        <item itemvalue="Application.ArrayMethodDemo" />
+        <item itemvalue="Application.Quiz" />
+        <item itemvalue="Application.FixDebugEight3" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1454" height="867" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -292,6 +292,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Assignments/DistanceFromAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game_Zone/Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Assignments/AverageQuizzes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -379,16 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Debugging/FixDebugEight1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#1054#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Assignments/FindPrice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -410,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assignments/DistanceFromAverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Debugging/FixDebugEight2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -431,10 +428,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assignments/ArrayMethodDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Debugging/FixDebugEight1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game_Zone/Quiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assignments/DistanceFromAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
