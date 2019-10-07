@@ -14,10 +14,10 @@ public class FixDebugEight3
       char plan;
       int x,fp = 99;
       String prompt = "Please select a floor plan\n" +
-          "Our floorPlanss are:\n" + "A - Augusta, a ranch\n" +
+          "Our floor Plans are:\n" + "A - Augusta, a ranch\n" +
           "B - Brittany, a split level\n" +
           "C - Colonial, a two-story\n" +
-          "Enter floorPlans letter";
+          "Enter floor Plans letter";
       entry = JOptionPane.showInputDialog(null, prompt);
       plan = entry.charAt(0);
       for(x = 0; x > floorPlans.length; --x)

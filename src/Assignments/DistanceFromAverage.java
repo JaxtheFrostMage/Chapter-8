@@ -45,15 +45,17 @@ public class DistanceFromAverage {
            } else if (userEntry == 99999){
                i = i + 99999;
            }
-       }
 
+       }
         average = total / numOfInts;
 
        if(noEnteredNumber){
            System.out.println("Error: no valid entry was made!");
        }
 
-        for (int i = 0; 0 < allValues.length; i++){
+        System.out.println("Average is " + average);
+
+        for (int i = 0; 0 < numOfInts; i++){
             if(allValues[i] > average){
                 System.out.println(allValues[i] + " is " + (allValues[i] - average) + " above the average." );
             }else if(allValues[i] < average && allValues[i] != 0){
