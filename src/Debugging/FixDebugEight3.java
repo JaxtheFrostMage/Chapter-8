@@ -7,12 +7,12 @@ import javax.swing.*;
 public class FixDebugEight3
 {
    public static void main(String[] args)
-   { 
+   {
       String entry;
       char[] floorPlans = {'A','B','C','a','b','c'};
       int[] pricesInThousands = {145, 190, 235};
       char plan;
-      int x,fp = 99;
+      int fp = 0;
       String prompt = "Please select a floor plan\n" +
           "Our floor Plans are:\n" + "A - Augusta, a ranch\n" +
           "B - Brittany, a split level\n" +
@@ -20,10 +20,10 @@ public class FixDebugEight3
           "Enter floor Plans letter";
       entry = JOptionPane.showInputDialog(null, prompt);
       plan = entry.charAt(0);
-      for(x = 0; x > floorPlans.length; --x)
+      for(int x = 6; x > floorPlans.length; --x)
 	 if(plan == floorPlans[x])
-           fp = x;
-      if(fp == 99)
+           fp++;
+      if(fp == 6)
         JOptionPane.showMessageDialog(null,
             "Invalid floor plan code entered");
       else

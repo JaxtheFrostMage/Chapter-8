@@ -20,7 +20,7 @@ public class FixDebugEight4
       while(!(entry.equals(STOP)))
       {
          array[x] = entry;
-         --x;
+         ++x;
          entry = JOptionPane.showInputDialog(null,
             "Enter another word\n" +
             "Enter " + STOP + " when you want to stop"); 

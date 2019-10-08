@@ -7,10 +7,10 @@ public class FixDebugEight1
 {
    public static void main(String args[])
    {
-      char userCode;
+      String userCode;
       String entry, message;
       boolean found = false;
-      char[] okayCodes = {'A','C','T','H'};
+      String[] okayCodes = {"A","C","T","H"};
       StringBuffer prompt = new 
             StringBuffer("Enter shipping code for this delivery\nValid codes are: ");
       for(int x = 0; x < okayCodes.length; ++x)
@@ -21,10 +21,10 @@ public class FixDebugEight1
       }
       entry = JOptionPane.showInputDialog(null,
          prompt); 
-      userCode = entry.charAt(0);
+      userCode = entry;
       for(int i = 0; i < okayCodes.length; ++i)
       {
-         if(userCode == okayCodes[i])
+         if(userCode.equalsIgnoreCase(okayCodes[i]))
          {
             found = true;
          }
